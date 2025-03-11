@@ -7,7 +7,7 @@ import 'package:instagram_flutter/utils/utils.dart';
 import 'package:instagram_flutter/widgets/text_field_input.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:instagram_flutter/widgets/text_field_input.dart';
+// import 'package:instagram_flutter/widgets/text_field_input.dart';
 
 class SignupScreen extends StatefulWidget {
   const SignupScreen({super.key});
@@ -122,7 +122,7 @@ class _LoginScreenState extends State<SignupScreen> {
                     email: _emailController.text,
                     password: _passwordController.text,
                     bio: _bioController.text,
-                    // file: _image!,
+                    file: _image!,
                   );
                   print(res);
                 },
