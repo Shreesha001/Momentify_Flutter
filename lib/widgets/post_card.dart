@@ -132,7 +132,7 @@ class PostCard extends StatelessWidget {
                           ),
                         ),
 
-                        TextSpan(text: snap['description']),
+                        TextSpan(text: '  ${snap['description']}'),
                       ],
                     ),
                   ),
