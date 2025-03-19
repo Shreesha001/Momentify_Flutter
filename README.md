@@ -2,6 +2,8 @@
 
 Momentify is a social media app where users can share photos, follow other users, like posts, and leave comments. It’s built with **Flutter**, **Firebase** for authentication and storage, and **Provider** for state management. 
 
+---
+
 ## Features 🚀
 
 - **User Authentication** 🔐: Sign up, log in, and manage accounts using Firebase Authentication.
@@ -13,34 +15,47 @@ Momentify is a social media app where users can share photos, follow other users
 - **Real-time Updates** ⚡: Get real-time updates on likes, comments, and new posts.
 - **Responsive Design** 📱: Works seamlessly on both mobile and tablet devices.
 
+---
+
 ## Screenshots 📸
 
 Here’s a sneak peek at what the app looks like! 👇
 
 ### 1. **Login Page** 🔑  
-![Login Screenshot](assets/screenshots/login_screen.png)  
+<img src="https://github.com/user-attachments/assets/6a6409d2-baf7-4f32-9625-b7dbf398f792" width="300" alt="Login Screenshot">  
 Login screen where users can log into their accounts.
 
+---
+
 ### 2. **Sign Up Page** 📝  
-![Sign Up Screenshot](assets/screenshots/signup_screen.png)  
+<img src="https://github.com/user-attachments/assets/62087744-9d07-442e-9912-b60b1503f944" width="300" alt="Sign Up Screenshot">  
 Sign-up screen for new users to create an account.
 
+---
+
 ### 3. **Feed Screen** 📰  
-![Feed Screenshot](assets/screenshots/feed_screen.png)  
+<img src="https://github.com/user-attachments/assets/bda73533-8aff-44a9-aec7-f962e613dc07" width="300" alt="Feed Screenshot">  
 A typical feed showing user posts with the option to like and comment.
 
+---
+
 ### 4. **Search Screen** 🔍  
-![Search Screenshot](assets/screenshots/search_screen.png)  
-Search for users and posts with ease.
+<img src="https://github.com/user-attachments/assets/eb35916b-9969-4677-8416-bf9939214d7d" width="300" alt="Search Screenshot">  
+Search for users.
+
+---
 
 ### 5. **Create a Post Screen** ✨  
-![Create Post Screenshot](assets/screenshots/create_post_screen.png)  
+<img src="https://github.com/user-attachments/assets/745a88a2-284f-40a3-bcc9-067c7c119299" width="300" alt="Create Post Screenshot">  
 The screen to create a new post, upload an image, and share with your followers.
 
+---
+
 ### 6. **Profile Screen** 👤  
-![Profile Screenshot](assets/screenshots/profile_screen.png)  
+<img src="https://github.com/user-attachments/assets/d0962dfe-3894-4b83-87d1-b02801069ac1" width="300" alt="Profile Screenshot">  
 User profile with the ability to edit and upload a profile photo.
 
+---
 ## Installation ⚙️
 
 To run this project on your local machine, follow these steps:
@@ -62,7 +77,8 @@ To run this project on your local machine, follow these steps:
 
 5. Run the app:  
    `flutter run`
-
+   
+---
 ## Dependencies 📦
 
 Here are the main dependencies used in this project:
@@ -75,6 +91,7 @@ Here are the main dependencies used in this project:
 - **image_picker**: For selecting images from the gallery or camera.
 - **cached_network_image**: For caching and displaying network images efficiently.
 
+---
 
 ## Contributing 🤝
 
@@ -86,6 +103,7 @@ Contributions are welcome! If you'd like to contribute to Momentify, please foll
 4. Push to the branch (`git push origin feature/YourFeatureName`).
 5. Open a pull request.
 
-
 ---
 
+
+Happy coding! 🚀✨
