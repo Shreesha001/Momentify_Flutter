@@ -5,6 +5,7 @@ import 'package:instagram_flutter/responsive/responsive_layout_screen.dart';
 import 'package:instagram_flutter/responsive/web_screen_layout.dart';
 import 'package:instagram_flutter/screens/signup_screen.dart';
 import 'package:instagram_flutter/utils/colors.dart';
+import 'package:instagram_flutter/utils/global_variables.dart';
 import 'package:instagram_flutter/utils/utils.dart';
 import 'package:instagram_flutter/widgets/text_field_input.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -70,15 +71,37 @@ class _LoginScreenState extends State<LoginScreen> {
       body: SafeArea(
         child: Container(
           width: double.infinity,
-          padding: const EdgeInsets.symmetric(horizontal: 32),
+          padding:
+              MediaQuery.of(context).size.width > webScreenSize
+                  ? const EdgeInsets.symmetric(horizontal: 32)
+                  : const EdgeInsets.symmetric(horizontal: 32 / 3),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Flexible(child: Container(), flex: 2),
-              SvgPicture.asset(
-                'assets/ic_instagram.svg',
-                color: primaryColor,
-                height: 64,
+              ShaderMask(
+                shaderCallback: (Rect bounds) {
+                  return LinearGradient(
+                    colors: [Colors.blue, Colors.cyan],
+                    tileMode: TileMode.mirror,
+                  ).createShader(bounds);
+                },
+                child: const Text(
+                  "Momentify",
+                  style: TextStyle(
+                    fontWeight: FontWeight.w700,
+                    fontSize: 50,
+                    color: Colors.white,
+                    letterSpacing: 2,
+                    shadows: [
+                      Shadow(
+                        blurRadius: 10.0,
+                        color: Colors.black,
+                        offset: Offset(5.0, 5.0),
+                      ),
+                    ],
+                  ),
+                ),
               ),
               const SizedBox(height: 64),
               TextFieldInput(
@@ -117,18 +140,12 @@ class _LoginScreenState extends State<LoginScreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Container(
-                    padding: const EdgeInsets.symmetric(vertical: 8),
-                    child: const Text("Don't have an account?"),
-                  ),
+                  const Text("Don't have an account? "),
                   GestureDetector(
                     onTap: navigateToSignup,
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(vertical: 8),
-                      child: const Text(
-                        "Sign Up",
-                        style: TextStyle(fontWeight: FontWeight.bold),
-                      ),
+                    child: const Text(
+                      "Sign Up",
+                      style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
