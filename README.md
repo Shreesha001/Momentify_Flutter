@@ -23,37 +23,37 @@ Here’s a sneak peek at what the app looks like! 👇
 
 ### 1. **Login Page** 🔑  
 <img src="https://github.com/user-attachments/assets/6a6409d2-baf7-4f32-9625-b7dbf398f792" width="300" alt="Login Screenshot">  
-Login screen where users can log into their accounts.
+<p>Login screen where users can log into their accounts.</p>
 
 ---
 
 ### 2. **Sign Up Page** 📝  
 <img src="https://github.com/user-attachments/assets/62087744-9d07-442e-9912-b60b1503f944" width="300" alt="Sign Up Screenshot">  
-Sign-up screen for new users to create an account.
+<p>Sign-up screen for new users to create an account.</p>
 
 ---
 
 ### 3. **Feed Screen** 📰  
 <img src="https://github.com/user-attachments/assets/bda73533-8aff-44a9-aec7-f962e613dc07" width="300" alt="Feed Screenshot">  
-A typical feed showing user posts with the option to like and comment.
+<p>A typical feed showing user posts with the option to like and comment.</p>
 
 ---
 
 ### 4. **Search Screen** 🔍  
 <img src="https://github.com/user-attachments/assets/eb35916b-9969-4677-8416-bf9939214d7d" width="300" alt="Search Screenshot">  
-Search for users.
+<p>Search for users.</p>
 
 ---
 
 ### 5. **Create a Post Screen** ✨  
-<img src="https://github.com/user-attachments/assets/745a88a2-284f-40a3-bcc9-067c7c119299" width="300" alt="Create Post Screenshot">  
-The screen to create a new post, upload an image, and share with your followers.
+<img src="https://github.com/Shreesha001/Momentify_Flutter/blob/main/6258117046965487199_121.jpg" width="300" alt="Create Post Screenshot">
+<p>The screen to create a new post, upload an image, and share with your followers.</p>
 
 ---
 
 ### 6. **Profile Screen** 👤  
 <img src="https://github.com/user-attachments/assets/d0962dfe-3894-4b83-87d1-b02801069ac1" width="300" alt="Profile Screenshot">  
-User profile with the ability to edit and upload a profile photo.
+<p>User profile with the ability to edit and upload a profile photo.</p>
 
 ---
 ## Installation ⚙️
